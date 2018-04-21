@@ -1,0 +1,29 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+@media (max-width: 1199px)
+{
+	.container
+	{
+		width: 970px;
+	}
+	.list-item .item .contentItemTop
+	{
+		height: 190px;
+	}
+}
+
+@media (max-width: 979px)
+{
+	.container
+	{
+		width: 750px;
+	}
+	.list-item .item
+	{
+		@include calc(width, '50% - 60px'); 
+		margin-bottom: 60px;
+	}
+}
+
