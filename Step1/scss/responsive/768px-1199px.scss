@@ -2,35 +2,28 @@
 // Responsive: Tablet to desktop
 // --------------------------------------------------
 
-@media (max-width: 1199px)
-{
-	.container
-	{
+@media (max-width: 1199px) {
+	
+	.container {
 		width: 930px;
 	}
-	.list-item .item
-	{
+	.list-item .item {
 		@include calc(width, '33.3% - 30px'); 
 		padding: 0 15px; 
-		.contentItemTop
-		{
+		.contentItemTop	{
 			height: 190px;
 		}
-		.contentItemBottom h4
-		{ 
+		.contentItemBottom h4 { 
 			font-size: 21px;
 		}
 	}
 }
 
-@media (max-width: 979px)
-{
-	.container
-	{
+@media (max-width: 979px) {
+	.container {
 		width: 750px;
 	}
-	.list-item .item
-	{
+	.list-item .item {
 		@include calc(width, '50% - 60px'); 
 		padding: 0 30px;
 		margin-bottom: 60px;
