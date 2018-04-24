@@ -49,13 +49,13 @@ header h1 {
       border: 1px solid #d2d2d2;
       -webkit-box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81);
       box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81); }
-    .list-item .item .contentItemTop {
+    .list-item .item .content-item-top {
       height: 200px;
       position: relative;
       overflow: hidden; }
-      .list-item .item .contentItemTop .image {
+      .list-item .item .content-item-top .image {
         position: relative; }
-        .list-item .item .contentItemTop .image:before {
+        .list-item .item .content-item-top .image:before {
           content: "";
           width: 100%;
           height: 100%;
@@ -65,7 +65,7 @@ header h1 {
           bottom: 0;
           left: 0;
           background-color: rgba(130, 123, 123, 0.58); }
-      .list-item .item .contentItemTop .date-item {
+      .list-item .item .content-item-top .date-item {
         position: absolute;
         top: 20px;
         right: 20px;
@@ -79,12 +79,12 @@ header h1 {
         text-align: center;
         font-size: 10px;
         line-height: 1.3em; }
-        .list-item .item .contentItemTop .date-item span.date {
+        .list-item .item .content-item-top .date-item span.date {
           font-size: 16px;
           font-weight: bold;
           padding-top: 12px;
           display: inline-block; }
-      .list-item .item .contentItemTop .categoryItem {
+      .list-item .item .content-item-top .category-item {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -95,23 +95,23 @@ header h1 {
         font-size: 12px;
         text-align: center;
         background-color: #e54e42; }
-    .list-item .item .contentItemBottom {
+    .list-item .item .content-item-bottom {
       padding: 30px; }
-      .list-item .item .contentItemBottom h3 {
+      .list-item .item .content-item-bottom h3 {
         margin: 0 0 20px 0; }
-        .list-item .item .contentItemBottom h3 a {
+        .list-item .item .content-item-bottom h3 a {
           color: #000;
           text-decoration: none; }
-          .list-item .item .contentItemBottom h3 a:hover {
+          .list-item .item .content-item-bottom h3 a:hover {
             color: #e54e42; }
-      .list-item .item .contentItemBottom h4 {
+      .list-item .item .content-item-bottom h4 {
         color: #e54e42;
         margin: 0;
         font-weight: normal; }
-      .list-item .item .contentItemBottom .hits_and_comments {
+      .list-item .item .content-item-bottom .hits-and-comments {
         color: #888;
         font-size: 14px; }
-        .list-item .item .contentItemBottom .hits_and_comments span.hits {
+        .list-item .item .content-item-bottom .hits-and-comments span.hits {
           margin-right: 20px; }
 
 @media (max-width: 1199px) {
@@ -121,9 +121,9 @@ header h1 {
   .list-item .item {
     width: calc(33.3% - 30px);
     padding: 0 15px; }
-    .list-item .item .contentItemTop {
+    .list-item .item .content-item-top {
       height: 190px; }
-    .list-item .item .contentItemBottom h4 {
+    .list-item .item .content-item-bottom h4 {
       font-size: 21px; } }
 @media (max-width: 979px) {
   .container {

@@ -10,7 +10,7 @@
 			border: 1px solid #d2d2d2;
 			@include boxshadow();
 		}
-		.contentItemTop {
+		.content-item-top {
 			height: 200px;
 			position: relative;
 			overflow: hidden;
@@ -49,7 +49,7 @@
 					display: inline-block;
 				}
 			}
-			.categoryItem {
+			.category-item {
 				position: absolute;
 				bottom: 0;
 				left:0;
@@ -62,7 +62,7 @@
 				background-color: $color_primary;
 			}
 		}
-		.contentItemBottom {
+		.content-item-bottom {
 			padding: 30px;
 			h3 {
 				margin: 0 0 20px 0;
@@ -79,7 +79,7 @@
 				margin:0;
 				font-weight: normal;
 			}
-			.hits_and_comments {
+			.hits-and-comments {
 				color: #888;
 				font-size: 14px; 
 				span.hits {

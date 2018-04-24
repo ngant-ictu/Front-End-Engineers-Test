@@ -10,10 +10,10 @@
 	.list-item .item {
 		@include calc(width, '33.3% - 30px'); 
 		padding: 0 15px; 
-		.contentItemTop	{
+		.content-item-top	{
 			height: 190px;
 		}
-		.contentItemBottom h4 { 
+		.content-item-bottom h4 { 
 			font-size: 21px;
 		}
 	}
