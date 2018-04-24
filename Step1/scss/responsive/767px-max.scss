@@ -3,13 +3,11 @@
 // --------------------------------------------------
 
 @media (max-width: 767px) {
-	.container
-	{
+	.container {
 		width: 100%;
 
 	}
-	.list-item .item
-	{
+	.list-item .item {
 		@include calc(width, '100% - 60px'); 
 		margin-bottom: 60px;
 	}

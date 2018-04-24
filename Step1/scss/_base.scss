@@ -1,23 +1,19 @@
-body
-{
+body {
 	font-family: $font_primary;
 	background: #f1f1f1;
 	font-size: 16px;
 	line-height: 1.7em;
 	color: $text_color;
 }
-.container
-{
+.container {
 	width: 1170px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
-img
-{
+img {
 	width: 100%;
 }
-header h1
-{
+header h1 {
 	text-align: center;
 }
