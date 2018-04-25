@@ -12,7 +12,30 @@
 	box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81);
 }
 @mixin calc($property, $expression) {
-  #{$property}: -moz-calc(#{$expression});
-  #{$property}: -webkit-calc(#{$expression});
-  #{$property}: calc(#{$expression});
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+	@if $point == xxlarge {
+		@media (min-width: 1440px) { @content ; }
+	}
+	@else if $point == xlarge {
+		@media (min-width: 1200px) { @content ; }
+	}
+	@else if $point == large {
+		@media (max-width: 1199px) { @content ; }
+	}
+	@else if $point == medium {
+		@media (max-width: 979px)  { @content ; }
+	}
+	@else if $point == small {
+		@media (max-width: 767px)  { @content ; }
+
+	}
 }
