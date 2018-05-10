@@ -7,10 +7,12 @@
 	-webkit-flex-wrap: wrap;  
 	flex-wrap: wrap;
 }
+
 @mixin boxshadow() { 
-    -webkit-box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81);
+  -webkit-box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81);
 	box-shadow: -1px 1px 12px 4px rgba(204, 204, 204, 0.81);
 }
+
 @mixin calc($property, $expression) {
 	#{$property}: -moz-calc(#{$expression});
 	#{$property}: -webkit-calc(#{$expression});
